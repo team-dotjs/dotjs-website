@@ -59,6 +59,10 @@ h1.uk-text-xl {
 		background: #a280e8;
 	}
 
+	.uk-heading-text {
+		padding-bottom: 30px;
+	}
+
 	.uk-heading-text h1,
 	.uk-heading-text h4 {
 		color: #a280e8;
