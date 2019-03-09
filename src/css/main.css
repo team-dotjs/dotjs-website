@@ -1,0 +1,68 @@
+* {
+	font-family: Eina,"Helvetica Neue",Helvetica,sans-serif !important;
+	letter-spacing: -.02em;
+	-webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+	/*background-color: #8B28AD;*/
+	background-color: #f3f3f3;
+}
+
+
+h1.uk-text-xl {
+	font-size: 50px;
+}
+
+.uk-width-1-2-important {
+	width: 50% !important;
+}
+
+.dotjs-logo span {
+	width: 11px;
+	height: 11px;
+	background: #222;
+	display: inline-block;
+	border-radius: 100%;
+	position: relative;
+	bottom: 0px;
+}
+
+.uk-bg-image {
+	background-image: url(https://cdn.dribbble.com/users/110372/screenshots/5824517/smart_home_dribbble_shot.png);
+	background-size: contain;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+
+.dotjs-logo span {
+	background: #B84066;
+}
+
+.uk-heading-text h1,
+.uk-heading-text h4 {
+	color: #B84066;
+}
+
+@media screen and (max-width: 960px) {
+
+	body {
+		background-image: url(https://cdn.dribbble.com/users/110372/screenshots/5824517/smart_home_dribbble_shot.png);
+		background-size: contain;
+		background-position: bottom left;
+		background-repeat: no-repeat;
+	}
+
+	.dotjs-logo span {
+		background: #F49A96;
+	}
+
+	.uk-heading-text h1,
+	.uk-heading-text h4 {
+		color: #F49A96;
+	}
+
+
+}
