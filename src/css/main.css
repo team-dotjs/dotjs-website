@@ -38,12 +38,12 @@ h1.uk-text-xl {
 }
 
 .dotjs-logo span {
-	background: #B84066;
+	background: #612DCB;
 }
 
 .uk-heading-text h1,
 .uk-heading-text h4 {
-	color: #B84066;
+	color: #612DCB;
 }
 
 @media screen and (max-width: 960px) {
@@ -53,15 +53,6 @@ h1.uk-text-xl {
 		background-size: contain;
 		background-position: bottom left;
 		background-repeat: no-repeat;
-	}
-
-	.dotjs-logo span {
-		background: #B84066;
-	}
-
-	.uk-heading-text h1,
-	.uk-heading-text h4 {
-		color: #B84066;
 	}
 
 
