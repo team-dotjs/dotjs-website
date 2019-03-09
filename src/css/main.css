@@ -55,5 +55,14 @@ h1.uk-text-xl {
 		background-repeat: no-repeat;
 	}
 
+	.dotjs-logo span {
+		background: #a280e8;
+	}
+
+	.uk-heading-text h1,
+	.uk-heading-text h4 {
+		color: #a280e8;
+	}
+
 
 }
