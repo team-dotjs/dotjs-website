@@ -55,6 +55,14 @@ section {
 	background: #eee;
 }
 
+.theme-white {
+	background: #fff;
+}
+
+.theme-secondary {
+	background: #9C25EB;
+}
+
 main a.uk-button-primary {
 	background: none;
     border: 3px solid #fff;
@@ -234,7 +242,7 @@ h4 {
 span.x-shape {
 	width: 15px;
 	height: 15px;
-	background: #9C25EB;
+	background: #eee;
 	position: absolute;
 	top: -30px;
 	z-index: 0;
@@ -251,6 +259,17 @@ span.x-shape.round {
 	border-radius: 100%;
 }
 
+input.uk-form-blank::placeholder {
+	color: #ccc;
+}
+
+input.uk-form-blank:hover,
+input.uk-form-blank:focus,
+input.uk-form-blank:active {
+	outline: none;
+	color: #fff;
+	border-color: transparent;
+}
 
 .toggle-mode a {
 	width: 15px;
@@ -273,9 +292,19 @@ html.dark-mode span.wingding {
 	background: #232330;
 }
 
+html.dark-mode section,
 html.dark-mode main {
 	background: #191a27;
 }
+
+html.dark-mode section.dropping-shapes {
+	background: #232330;	
+}
+
+html.dark-mode section * {
+	color: #eee;
+}
+
 
 @media (prefers-color-scheme: dark) { 
 	span.wingding {
