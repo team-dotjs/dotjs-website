@@ -1,0 +1,22 @@
+<nav class="uk-navbar-container uk-navbar-transparent uk-padding-small uk-padding-remove-vertical uk-position-z-index" uk uk-navbar>
+  <div class="uk-navbar-left">
+    <ul class="uk-navbar-nav">
+      <li>
+        <a class="dotjs-logo uk-text-white">&mdash; {{site.title_html}}</a>
+      </li>
+    </ul>
+  </div>
+  <div class="uk-navbar-right">
+    <ul class="uk-navbar-nav">
+      {% for nav in site.navigation %}
+      <li>
+        <a class="uk-text-lowercase uk-padding-remove-horizontal uk-text-white uk-position-relative" target="{{nav.target}}" href="{{nav.link}}">
+          <span>{{nav.label}}</span>
+          <span class="link-underline"></span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+

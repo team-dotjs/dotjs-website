@@ -1,0 +1,8 @@
+---
+layout: default
+---
+{% for element in page.elements %}
+
+	{%- include {{element.template}} element=element -%}
+
+{% endfor %}
